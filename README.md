@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/dcycle/uli_custom_workflow.svg?style=svg)](https://circleci.com/gh/dcycle/uli_custom_workflow)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/dcycle/uli_custom_workflow/tree/1.x.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/dcycle/uli_custom_workflow/tree/1.x)
 
 ULI Custom Workflow
 =====
