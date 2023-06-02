@@ -1,0 +1,5 @@
+{
+    "require": {
+        "drupal/devel": "^5.1"
+    }
+}

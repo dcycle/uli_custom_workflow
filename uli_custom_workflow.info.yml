@@ -1,0 +1,8 @@
+---
+name: ULI Custom Workflow
+type: module
+description: >-
+  Change messages related to one-time log in links, and allow said links to be
+  used by already-logged-in users.
+core_version_requirement: ^9 || ^10
+php: '8.x'

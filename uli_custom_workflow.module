@@ -1,0 +1,31 @@
+<?php
+
+/**
+ * @file
+ * Module hooks, and handlers.
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Handy wrapper around \Drupal::service('uli_custom_workflow').
+ */
+// @codingStandardsIgnoreStart
+function uli_custom_workflow() {
+// @codingStandardsIgnoreEnd
+  return \Drupal::service('uli_custom_workflow');
+}
+
+/**
+ * Implements hook_form_alter().
+ */
+function uli_custom_workflow_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  uli_custom_workflow()->hookFormAlter($form, $form_state, $form_id);
+}
+
+/**
+ * Submit hander for the user admin form.
+ */
+function uli_custom_workflow_submit_user_admin_form(array $form, FormStateInterface $form_state) {
+  uli_custom_workflow()->submitUserAdminForm($form, $form_state);
+}

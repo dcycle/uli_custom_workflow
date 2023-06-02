@@ -1,0 +1,9 @@
+---
+services:
+  example.route_subscriber:
+    class: Drupal\uli_custom_workflow\Routing\RouteSubscriber
+    tags:
+      - {name: event_subscriber}
+  uli_custom_workflow:
+    class: Drupal\uli_custom_workflow\UliCustomWorkflow
+    arguments: ['@config.factory']
