@@ -19,7 +19,7 @@ class RouteSubscriber extends RouteSubscriberBase {
   protected function alterRoutes(RouteCollection $collection) {
     if ($route = $collection->get('user.reset.login')) {
       // https://drupal.stackexchange.com/a/232960/13414.
-      $route->setDefault('_controller', '\Drupal\uli_custom_workflow\Controller\MyUserController::resetPassLogin');
+      $route->setDefault('_controller', '\Drupal\uli_custom_workflow\Controller\UliUserController::resetPassLogin');
       $route->setRequirements([
         '_access' => 'TRUE',
       ]);

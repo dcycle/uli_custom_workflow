@@ -9,7 +9,7 @@ use Drupal\uli_custom_workflow\Utilities\DependencyInjectionTrait;
 /**
  * A user controller which intercepts the default message.
  */
-class MyUserController extends UserController {
+class UliUserController extends UserController {
 
   use DependencyInjectionTrait;
 
