@@ -90,7 +90,7 @@ class UliCustomWorkflow {
         ->configGet('untranslated_uli_authenticated_message'),
     ];
 
-    $form['actions']['submit']['#submit'][] = 'uli_custom_workflow_submit_user_admin_form';
+    $form['#submit'][] = 'uli_custom_workflow_submit_user_admin_form';
   }
 
   /**
