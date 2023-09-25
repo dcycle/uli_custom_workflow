@@ -2,8 +2,8 @@
 
 namespace Drupal\uli_custom_workflow;
 
-use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Config\ConfigFactoryInterface;
+use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\StringTranslation\StringTranslationTrait;
 
 /**
