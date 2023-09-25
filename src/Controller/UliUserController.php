@@ -2,9 +2,9 @@
 
 namespace Drupal\uli_custom_workflow\Controller;
 
+use Drupal\uli_custom_workflow\Utilities\DependencyInjectionTrait;
 use Drupal\user\Controller\UserController;
 use Symfony\Component\HttpFoundation\Request;
-use Drupal\uli_custom_workflow\Utilities\DependencyInjectionTrait;
 
 /**
  * A user controller which intercepts the default message.
