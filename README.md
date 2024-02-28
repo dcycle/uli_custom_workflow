@@ -12,7 +12,7 @@ Without this module, Drupal assumes that:
 * ULIs will not be used if you are already logged in, which is why [you will see an acces denied message if you try that](https://www.drupal.org/project/drupal/issues/3316655);
 * ULIs will not be used if you just want to log in your site if you're a normal user, which is why [the message after using the link asks you to reset your password](https://www.drupal.org/project/drupal/issues/2969406).
 
-In certain cases, for example if you are using the [Multiaccess](https://www.drupal.org/project/multiaccess) module, or if you simply request a ULI using the "forgot password" link, without ever having the intention of setting or remembering your password, Drupal's assumptions may not fit your workflow, in which case this module may be for your.
+In certain cases, for example if you are using the [Multiaccess](https://www.drupal.org/project/multiaccess) module, or if you simply request a ULI using the "forgot password" link, without ever having the intention of setting or remembering your password, Drupal's assumptions may not fit your workflow, in which case this module may be for you.
 
 Local development
 -----
