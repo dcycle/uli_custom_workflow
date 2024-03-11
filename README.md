@@ -5,7 +5,7 @@ ULI Custom Workflow
 
 A ULI is a unique login-link, it looks like /user/reset/1/123/ABC/login and it is generated when you forget your password or using `drush uli`.
 
-This module allows you to use a ULI if you are already logged in; as well as customize the message which is displayed when you follow the ULI link, which can be done in two new fields near the bottom of /admin/config/people/accounts (defaults are "You have successfully logged in." and "You are already logged in.".
+This module allows you to use a ULI if you are already logged in; as well as customize the message which is displayed when you follow the ULI link, which can be done in two new fields near the bottom of /admin/config/people/accounts (defaults are "You have successfully logged in." and "You are already logged in.").
 
 Without this module, Drupal assumes that:
 
