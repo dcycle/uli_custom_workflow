@@ -19,7 +19,7 @@ Local development
 
 If you install Docker on your computer:
 
-* you can set up a complete local development workspace by downloading this codebase and running `./scripts/deploy.sh 9` or `./scripts/deploy.sh 10`. You do not need a separate Drupal instance. `./scripts/uli.sh` will provide you with a login link to your environment.
+* you can set up a complete local development workspace by downloading this codebase and running `./scripts/deploy.sh 11` or `./scripts/deploy.sh 10`. You do not need a separate Drupal instance. `./scripts/uli.sh` will provide you with a login link to your environment.
 * you can destroy your local environment by running `./scripts/destroy.sh`.
 * you can run all tests by running `./scripts/ci.sh`; please make sure all tests before submitting a patch.
 
