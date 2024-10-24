@@ -4,5 +4,5 @@ type: module
 description: >-
   Change messages related to one-time login links, and allow said links to be
   used by already-logged-in users.
-core_version_requirement: ^9 || ^10
+core_version_requirement: ^10 || ^11
 php: '8.x'
